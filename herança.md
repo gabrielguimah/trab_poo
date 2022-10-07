@@ -1,5 +1,6 @@
-```java
+Exemplo de Herança:
 
+```java
 public class Pessoa {
   public String nome;
   public double idade;
@@ -14,5 +15,4 @@ public class Aluno extends Pessoa {
 public class Professor extends Pessoa {
   public double salario;
 }
-
 ```
