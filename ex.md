@@ -2,18 +2,20 @@ Exemplo de Herança:
 
 ```java
 public class Pessoa {
-  public String nome;
-  public int idade;
-  public int cpf;
+  private String nome;
+  private int idade;
+  private int cpf;
 }
   
 public class Aluno extends Pessoa {
-  public int matricula;
-  public double media;
+  private int matricula;
+  private double media;
+  private String turma;
 }
     
 public class Professor extends Pessoa {
-  public double salario;
+  private double salario;
+  private String turma;
 }
 ```
 
