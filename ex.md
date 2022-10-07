@@ -1,4 +1,4 @@
-Exemplo de Herança:
+# Exemplo de Herança:
 
 ```java
 public class Pessoa {
@@ -20,7 +20,7 @@ public class Professor extends Pessoa {
 ```
 
 
-Exemplo de Implementação de Interface:
+# Exemplo de Implementação de Interface:
 
 ```java
 public class Animal {
@@ -59,7 +59,7 @@ public class Gaivota extends Animal implements Voador {
 ```
 
 
-Exemplo de Sobrecarga:
+# Exemplo de Sobrecarga:
 
 ```java
 public static int calcular(int num){
@@ -80,7 +80,7 @@ public static void main(String[] args){
 }
 ```
 
-Exemplo de Composição:
+# Exemplo de Composição:
 
 ```java
 public class Time {
