@@ -105,6 +105,6 @@ public class Jogador {
 public static void main(String[] args) {
   Time time = new Time(180000000, 24, "BBS FC", 10000000, "BBS Stadium");
   Jogador jogador = new Jogador(100000, "Guimas", 177000000, true, time);
-  System.out.println(carro);
+  System.out.println(jogador);
 }
 ```
