@@ -17,6 +17,7 @@ public class Professor extends Pessoa {
 }
 ```
 
+
 Exemplo de Implementação de Interface:
 
 ```java
@@ -55,6 +56,7 @@ public class Gaivota extends Animal implements Voador {
 }
 ```
 
+
 Exemplo de Sobrecarga:
 
 ```java
@@ -73,5 +75,25 @@ public static double calcular(double num){
 public static void main(String[] args){
   System.out.println("Resultado de 4 elevado ao cubo => " + calcular(4));
   System.out.println("Resultado de PI elevado ao cubo => " + calcular(Math.PI));
+}
+```
+
+Exemplo de Composição:
+
+```java
+public class Time {
+  double valor;
+  int qtd_jogadores;
+  String nome;
+  double verba;
+  String estadio;
+}
+
+public class Jogador {
+  double salario;
+  String nome;
+  double valor;
+  boolean titular;
+  Time nome
 }
 ```
