@@ -54,3 +54,24 @@ public class Gaivota extends Animal implements Voador {
   }
 }
 ```
+
+Exemplo de Sobrecarga:
+
+```java
+public static int calcular(int num){
+  int calculo;
+  quadrado = num * num * num;
+  return calculo;
+}
+
+public static double calcular(double num){
+  double calculo;
+  quadrado = num * num * num;
+  return calculo;
+}
+    
+public static void main(String[] args){
+  System.out.println("Resultado de 4 elevado ao cubo => " + calcular(4));
+  System.out.println("Resultado de PI elevado ao cubo => " + calcular( Math.PI ));
+}
+```
