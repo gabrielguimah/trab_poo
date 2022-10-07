@@ -96,6 +96,6 @@ public class Jogador {
   String nome;
   double valor;
   boolean titular;
-  Time nome
+  Time nome;
 }
 ```
