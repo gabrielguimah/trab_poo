@@ -9,7 +9,7 @@ public class Pessoa {
   
 public class Aluno extends Pessoa {
   public double matricula;
-  public String media;
+  public double media;
 }
     
 public class Professor extends Pessoa {
@@ -22,10 +22,10 @@ Exemplo de Implementação de Interface:
 ```java
 public class Animal {
   public String filo;
-  public double classe;
-  public double ordem;
-  public double familia;
-  public double genero;
+  public String classe;
+  public String ordem;
+  public String familia;
+  public String genero;
 }
 
 public interface Voador {
