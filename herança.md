@@ -31,14 +31,19 @@ public class Animal {
 public interface Voador {
   void voar()
 }
+
+public interface NaoVoador {
+  void caminhar()
+}
   
-public class Pinguim extends Animal  {
-  public String especie;
+public class Pinguim extends Animal implements NaoVoador {
+  @Override
+  public void caminhar() {
+    System.out.println("A espécie está caminhando!");
+  }
 }
     
 public class Gaivota extends Animal implements Voador {
-  public String especie;
-      
   @Override
   public void voar() {
     System.out.println("A espécie está voando!");
