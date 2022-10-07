@@ -37,16 +37,20 @@ public interface NaoVoador {
 }
   
 public class Pinguim extends Animal implements NaoVoador {
+  public String especie;
+  
   @Override
   public void caminhar() {
-    System.out.println("A espécie está caminhando!");
+    System.out.println("A "+ especie + " está caminhando!");
   }
 }
     
 public class Gaivota extends Animal implements Voador {
+  public String especie;
+  
   @Override
   public void voar() {
-    System.out.println("A espécie está voando!");
+    System.out.println("A "+ especie + " está voando!");
   }
 }
 ```
