@@ -3,12 +3,12 @@ Exemplo de Herança:
 ```java
 public class Pessoa {
   public String nome;
-  public double idade;
-  public double cpf;
+  public int idade;
+  public int cpf;
 }
   
 public class Aluno extends Pessoa {
-  public double matricula;
+  public int matricula;
   public double media;
 }
     
