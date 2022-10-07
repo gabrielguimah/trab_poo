@@ -72,6 +72,6 @@ public static double calcular(double num){
     
 public static void main(String[] args){
   System.out.println("Resultado de 4 elevado ao cubo => " + calcular(4));
-  System.out.println("Resultado de PI elevado ao cubo => " + calcular( Math.PI ));
+  System.out.println("Resultado de PI elevado ao cubo => " + calcular(Math.PI));
 }
 ```
