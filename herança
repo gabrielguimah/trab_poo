@@ -1,1 +1,16 @@
-
+``
+public class Pessoa {
+  public String nome;
+  public double idade;
+  public double cpf;
+}
+  
+public class Aluno extends Pessoa {
+  public double matricula;
+  public String media;
+}
+    
+public class Professor extends Pessoa {
+public double salario;
+}
+``
